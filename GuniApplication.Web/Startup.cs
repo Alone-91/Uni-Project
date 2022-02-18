@@ -39,7 +39,7 @@ namespace GuniApplication.Web
                 .AddDatabaseDeveloperPageExceptionFilter();
 
             //services
-            //    .AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //    .AddDefaultIdentity<MyIdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
             //    .AddEntityFrameworkStores<ApplicationDbContext>();
 
             // Configure the ASP.NET Identity
