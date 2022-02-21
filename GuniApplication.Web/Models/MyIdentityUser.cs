@@ -26,6 +26,5 @@ namespace GuniApplication.Web.Models
         [Required]
         public bool IsAdminUser { get; set; }
 
-
     }
 }
